@@ -1,0 +1,71 @@
+body{
+    background: url(images/car-neon-chevrolet-corvette-race-cars-hd-wallpaper-preview.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    text-align: center;
+    margin-left: 800px;
+    margin-top: 250px;
+}
+
+#row2{
+    margin-left: 150px;
+
+
+}
+
+
+
+#bmw{
+    max-height: 150px;
+    max-width: 200px;
+    width: 120px;
+    height: 120px;
+}
+
+#camaro{
+    max-height: 150px;
+    max-width: 200px;
+    width: 120px;
+    height: 120px;
+}
+
+#maserati{
+    max-height: 150px;
+    max-width: 200px;
+    width: 120px;
+    height: 120px;
+}
+#range{
+    max-height: 150px;
+    max-width: 200px;
+    width: 120px;
+    height: 120px;
+}
+#porsche{
+    max-height: 150px;
+    max-width: 200px;
+    width: 120px;
+    height: 120px;
+}
+#sedan{
+    max-height: 150px;
+    max-width: 200px;
+    width: 120px;
+    height: 100px;
+    
+}
+
+p{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+}
+

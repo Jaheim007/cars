@@ -1,0 +1,39 @@
+{% load static %}
+<html>
+<head>
+    <title>Les Voitures</title>
+    <link rel="stylesheet" href="{% static 'style_car/style.css' %}">
+    
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div id="row1">
+            <a href="{% url 'main' blog.id %}" ><img id="bmw" src={% static 'style_car/images/bmw_log.png' %} alt="Bmw Logo"></a>
+            <p>Bmw</p>
+            
+            <a href="{% url 'main' %}"><img id="camaro" src={% static 'style_car/images/Chevrolet-logo.png' %} alt="Chevrolet-logo"></a>
+            <p>Chevrolet</p>
+
+            <img id="maserati" src= {% static 'style_car/images/maserati.png' %} alt="masareti_logo">
+            <p>maserati</p>
+        
+        </div>
+        
+        <div id="row2">
+            
+            <img id="sedan" src={% static 'style_car/images/mercedes-removebg-preview.png' %} alt="mercedes_logo">
+            <p>Mercedes</p>
+
+            <img id="porsche" src= {% static 'style_car/images/prosche_logo.png' %} alt=" porschelogo">
+            <p>Porsche</p>
+
+            <img id="range" src={% static 'style_car/images/land-rover-log.png' %} alt="range-rover_logo" >
+            <p>Range Rover</p>
+        
+        </div>
+    </div>
+
+</body>
+</html>
