@@ -1,5 +1,5 @@
 body{
-    background: url(images/car-neon-chevrolet-corvette-race-cars-hd-wallpaper-preview.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,75), rgba(0,0,0,0.60)), url("images/car-neon-chevrolet-corvette-race-cars-hd-wallpaper-preview.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -1,10 +1,19 @@
-<html >
+{% load static %}
+<html>
 <head>
     <title>World</title>
+    
 </head>
 <body>
-    <h1>Hello World</h1>
- 
+
+    <h2>Photos</h2>
+    {% for pipe in stores %}
+        <p> {{pipe.nom}}</p>
+        <p> {{pipe.modele}}</p>
+        <p> {{pipe.colour}}</p>
+        <img src="{{ pipe.image.url }}">
+        <p>{{ pipe.descrpition }}</p>
+    {% endfor %}
 
 </body>
 </html>

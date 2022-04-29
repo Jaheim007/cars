@@ -1,4 +1,5 @@
 {% load static %}
+
 <html>
 <head>
     <title>Les Voitures</title>
@@ -10,15 +11,17 @@
     <div class="container">
         
         <div id="row1">
-            <a href="{% url 'main' blog.id %}" ><img id="bmw" src={% static 'style_car/images/bmw_log.png' %} alt="Bmw Logo"></a>
+            {% for store in store %}
+           
+            <a href="{% url 'main' store.id %}"><img id="bmw" src={% static 'style_car/images/bmw_log.png' %} alt="Bmw Logo"></a>
             <p>Bmw</p>
             
-            <a href="{% url 'main' %}"><img id="camaro" src={% static 'style_car/images/Chevrolet-logo.png' %} alt="Chevrolet-logo"></a>
+            <a href="#"><img id="camaro" src={% static 'style_car/images/Chevrolet-logo.png' %} alt="Chevrolet-logo"></a>
             <p>Chevrolet</p>
 
             <img id="maserati" src= {% static 'style_car/images/maserati.png' %} alt="masareti_logo">
             <p>maserati</p>
-        
+            {% endfor %}}
         </div>
         
         <div id="row2">
